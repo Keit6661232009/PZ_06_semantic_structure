@@ -8,3 +8,125 @@ body { margin: 0; font-family: Arial, sans-serif; color: #222; }
 .content { display: grid; gap: 24px; }
 .post, .sidebar { padding: 24px; border: 1px solid #bbb; }
 a { color: inherit; }
+style.css
+* {
+box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+body {
+margin: 0;
+min-width: 320px;
+font-family: Arial, Helvetica, sans-serif;
+color: #141414;
+background-color: #f7f7f4;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+/* HEADER */
+.header {
+min-height: 92px;
+padding: 0 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #fff;
+background-color: #141414;
+}
+.header__logo {
+font-size: 18px;
+font-weight: 700;
+
+}
+.header__menu {
+display: flex;
+gap: 40px;
+}
+.header__link {
+font-size: 14px;
+font-weight: 600;
+}
+.header__link:hover {
+opacity: 0.7;
+}
+.header__link:focus-visible {
+outline: 2px solid #d7ff54;
+outline-offset: 5px;
+}
+.header__button {
+padding: 14px 20px;
+border-radius: 12px;
+font-size: 14px;
+font-weight: 600;
+color: #141414;
+background-color: #d7ff54;
+}
+/* HERO */
+.hero {
+min-height: 590px;
+padding: 66px 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #d7ff54;
+}
+.hero__content {
+max-width: 700px;
+}
+.hero__title {
+margin: 0;
+font-size: 68px;
+
+line-height: 1.05;
+}
+.hero__text {
+max-width: 570px;
+margin: 32px 0 0;
+font-size: 20px;
+line-height: 1.5;
+}
+.hero__button {
+display: inline-block;
+margin-top: 42px;
+padding: 18px 24px;
+border-radius: 12px;
+color: #fff;
+background-color: #141414;
+}
+.hero__illustration {
+width: 500px;
+height: 460px;
+padding: 36px 42px;
+border-radius: 32px;
+background-color: #6c5ce7;
+}
+.hero__number {
+color: #d7ff54;
+font-size: 18px;
+font-weight: 600;
+}
+.hero__circle {
+width: 300px;
+height: 300px;
+margin: 50px auto 0;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+background-color: #d7ff54;
+}
+
+.hero__circle-text {
+margin: 0;
+font-size: 28px;
+line-height: 1.2;
+font-weight: 700;
+}
